@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.leanza.xpresseat.LoginUserActivity"
+    android:orientation="vertical"
+    >
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN USER"
+        android:background="#000e52"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="20sp"
+        android:textAlignment="viewStart"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_margin="10sp"/>
+
+    <EditText
+        android:id="@+id/pwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"/>
+
+    <Button
+        android:id="@+id/loginUserBtn"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#000e52"
+        android:text="GO"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_margin="10sp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="376dp"
+        android:onClick="logInUser"
+        />
+
+
+
+
+</LinearLayout>
